@@ -659,25 +659,25 @@ checkruntooltip() ;-------------------------------------------------------------
 		GuiControlGet, runbtn, main:pos, %runbuttonhwnd%
 		runbuttontooltip:="You still need to:"
 		if (pausehkerror=1)
-			runbuttontooltip .= "`n• Set a pause hotkey"
+			runbuttontooltip .= "`nÂ• Set a pause hotkey"
 		if (exithkerror=1)
-			runbuttontooltip .= "`n• Set an exit hotkey"
+			runbuttontooltip .= "`nÂ• Set an exit hotkey"
 		if (FolderText="")
-			runbuttontooltip .= "`n• Set the Mtga exe file path"
+			runbuttontooltip .= "`nÂ• Set the Mtga exe file path"
 		if (Wins#_ddl="")
-			runbuttontooltip .= "`n• Set the number of wins"
+			runbuttontooltip .= "`nÂ• Set the number of wins"
 		if (ending_ddl="")
-			runbuttontooltip .= "`n• Choose an action for when wins are achieved"
+			runbuttontooltip .= "`nÂ• Choose an action for when wins are achieved"
 		if (checkb0=0)
-			runbuttontooltip .= "`n• Check ""remember me"" on the login page"
+			runbuttontooltip .= "`nÂ• Check ""remember me"" on the login page"
 		if (checkb1=0)
-			runbuttontooltip .= "`n• Set resolution to 1280x720"
+			runbuttontooltip .= "`nÂ• Set resolution to 1280x720"
 		if (checkb2=0)
-			runbuttontooltip .= "`n• Set Mtga to windowed mode"
+			runbuttontooltip .= "`nÂ• Set Mtga to windowed mode"
 		if (checkb3=0)
-			runbuttontooltip .= "`n• Select the desired deck"
+			runbuttontooltip .= "`nÂ• Select the desired deck"
 		if (checkb4=0)
-			runbuttontooltip .= "`n• Return to Mtga home page"
+			runbuttontooltip .= "`nÂ• Return to Mtga home page"
 		
 		if (hoverbutton=runbuttonhwnd and runbuttonstate=0)
 			{
@@ -966,25 +966,25 @@ pause_script:
 		ControlGet, runbuttonstate, enabled,, , ahk_id %runbuttonhwnd%
 		runbuttontooltip:="You still need to:"
 		if (pausehkerror=1)
-			runbuttontooltip .= "`n• Set a pause hotkey"
+			runbuttontooltip .= "`nÂ• Set a pause hotkey"
 		if (exithkerror=1)
-			runbuttontooltip .= "`n• Set an exit hotkey"
+			runbuttontooltip .= "`nÂ• Set an exit hotkey"
 		if (FolderText="")
-			runbuttontooltip .= "`n• Set the Mtga exe file path"
+			runbuttontooltip .= "`nÂ• Set the Mtga exe file path"
 		if (Wins#_ddl="")
-			runbuttontooltip .= "`n• Set the number of wins"
+			runbuttontooltip .= "`nÂ• Set the number of wins"
 		if (ending_ddl="")
-			runbuttontooltip .= "`n• Choose an action for when wins are achieved"
+			runbuttontooltip .= "`nÂ• Choose an action for when wins are achieved"
 		if (checkb0=0)
-			runbuttontooltip .= "`n• Check ""remember me"" on the login page"
+			runbuttontooltip .= "`nÂ• Check ""remember me"" on the login page"
 		if (checkb1=0)
-			runbuttontooltip .= "`n• Set resolution to 1280x720"
+			runbuttontooltip .= "`nÂ• Set resolution to 1280x720"
 		if (checkb2=0)
-			runbuttontooltip .= "`n• Set Mtga to windowed mode"
+			runbuttontooltip .= "`nÂ• Set Mtga to windowed mode"
 		if (checkb3=0)
-			runbuttontooltip .= "`n• Select the desired deck"
+			runbuttontooltip .= "`nÂ• Select the desired deck"
 		if (checkb4=0)
-			runbuttontooltip .= "`n• Return to Mtga home page"
+			runbuttontooltip .= "`nÂ• Return to Mtga home page"
 		CoordMode, tooltip, screen
 		tooltip, %runbuttontooltip%, mainX+runbtnX+4, mainY+runbtnY+runbtnH+27
 	}

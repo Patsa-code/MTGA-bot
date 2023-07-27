@@ -43,3 +43,4 @@ None so far
 
 I hope you enjoy!
 If you find this useful, please consider supporting it bellow
+[![support](https://raw.githubusercontent.com/Patsa-code/MTGA-bot/main/.github/Support.png)](https://www.buymeacoffee.com/PatsaD)
